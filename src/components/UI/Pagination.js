@@ -7,12 +7,17 @@ const Pagination = ({ itemsPerPage, items, paginate }) => {
     pageNumbers.push(i);
   }
   return (
-    <nav style={{ alignItems: 'center', margin: '0px 34%' }}>
+    <nav className='nav-margin'>
       <ul className='pagination'>
         {pageNumbers.map((number) => (
           <div className='pagination-a'>
             <li key={number} style={{ listStyle: 'none' }}>
-              <a onClick={() => paginate(number)}>{number}</a>
+              <button
+                className='pagination-btn'
+                onClick={() => paginate(number)}
+              >
+                {number}
+              </button>
             </li>
           </div>
         ))}

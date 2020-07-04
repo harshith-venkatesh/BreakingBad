@@ -5,28 +5,55 @@
   text-align: center;
 }
 
-.pagination-a a {
+.nav-margin {
+  margin-left: 40%;
+  margin-top: 10px;
+}
+
+.pagination-a button {
   color: white;
   float: left;
   padding: 8px 16px;
+  margin: auto 8px;
   text-decoration: none;
+  border: none;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 
 @media (max-width: 770px) {
-  .pagination-a a {
+  .pagination-a button {
     color: white;
+
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
     float: left;
     padding: 2px 6px;
     text-decoration: none;
     font-size: 1rem;
+    border: none;
+  }
+
+  .nav-margin {
+    margin-left: 18%;
+    margin-top: 10px;
   }
 }
-.pagination-a a.active {
-  background-color: #4caf50;
-  color: white;
+.pagination-a button:focus {
+  color: green;
 }
-.pagination-a a:hover:not(.active) {
-  background-color: rgb(35, 99, 67);
+.pagination-a button:hover:not(.active) {
+  color: rgb(110, 91, 91);
 }
 .loader,
 .loader:after {
