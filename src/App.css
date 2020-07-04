@@ -75,7 +75,7 @@ input[type='text'] {
   .card {
     cursor: pointer;
     background-color: transparent;
-    height: 330px;
+    height: 350px;
     /* 300px */
     perspective: 700px;
   }
