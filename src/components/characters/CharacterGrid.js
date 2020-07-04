@@ -4,11 +4,7 @@ import Spinner from '../UI/Spinner';
 
 const CharacterGrid = ({ isloading, items }) => {
   return isloading ? (
-    <div>
-      <Spinner />
-      <p>Loading...</p>
-      <p style={{ color: 'white' }}>{isloading}</p>
-    </div>
+    <Spinner />
   ) : (
     <section className='cards'>
       {items.map((item) => (
