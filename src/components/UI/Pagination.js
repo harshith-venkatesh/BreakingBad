@@ -12,9 +12,7 @@ const Pagination = ({ itemsPerPage, items, paginate }) => {
         {pageNumbers.map((number) => (
           <div className='pagination-a'>
             <li key={number} style={{ listStyle: 'none' }}>
-              <a href='!#' onClick={() => paginate(number)}>
-                {number}
-              </a>
+              <a onClick={() => paginate(number)}>{number}</a>
             </li>
           </div>
         ))}
