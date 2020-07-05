@@ -79,6 +79,12 @@ input[type='text'] {
     /* 300px */
     perspective: 700px;
   }
+  .card h1 {
+    font-size: 1.1rem;
+    border-bottom: 1px #fff solid;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
   .card-back {
     background-color: #333;
     color: white;
