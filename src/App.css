@@ -81,6 +81,7 @@ input[type='text'] {
   }
   .card h1 {
     font-size: 1.1rem;
+    color: blue;
     border-bottom: 1px #fff solid;
     padding-bottom: 5px;
     margin-bottom: 5px;
